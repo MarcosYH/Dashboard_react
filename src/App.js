@@ -1,12 +1,15 @@
-
 import './App.css';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="">
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="flex">
+      <Sidebar />
+      <div className="flex-grow">
+        <Navbar/>
+        {/* Content */}
+      </div>
     </div>
   );
 }
