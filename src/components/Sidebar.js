@@ -28,9 +28,42 @@ export default function Sidebar() {
             Dashboard
           </a>
         </div>
-        <a className="block py-2 px-4 text-sm hover:bg-gray-700" href=" #">
-          Contact
-        </a>
+        
+        <div className="hover:bg-[#0A2FB6] mx-2 bg-[#F0F0F0] flex dash_link p-2 rounded-md my-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="21"
+            viewBox="0 0 25 21"
+            fill="none"
+          >
+            <path
+              d="M1 1H24.1111V15.0556H1V1Z"
+              stroke="#0B1719"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12.5555 11.8611C9.66665 10.5833 5.33331 11.8611 5.33331 11.8611V5.47223C9.66665 2.91667 12.5555 5.47223 12.5555 5.47223M12.5555 11.8611V5.47223M12.5555 11.8611C12.5555 11.8611 16.8889 10.5833 19.7778 11.8611V5.47223C19.7778 5.47223 16.8889 2.91667 12.5555 5.47223"
+              stroke="#0B1719"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11.8333 16.333L7.5 20.1663H17.6111L13.2778 16.333H11.8333Z"
+              fill="#0B1719"
+              stroke="#0B1719"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <a className="block px-4 text-sm" href=" #">
+            Contact
+          </a>
+        </div>
         <a className="block py-2 px-4 text-sm hover:bg-gray-700" href=" #">
           About
         </a>
