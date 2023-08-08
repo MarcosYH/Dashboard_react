@@ -2,6 +2,8 @@ import React from "react";
 import Profile from "../assets/Profil.png";
 export default function Navbar() {
   return (
+    <div className="p-4 lg:ml-64">
+      <nav>
     <div className="bg-gray-200 p-4 flex justify-between">
       <div className="flex items-center">
         <input
@@ -19,6 +21,8 @@ export default function Navbar() {
           className="w-8 h-8 rounded-full"
         />
       </div>
+    </div>
+      </nav>
     </div>
   );
 }
